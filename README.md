@@ -1,7 +1,7 @@
 # Socket-Programming-Basics-using-Java
 This implements some basic programs of Socket Programming
  
-# Assignment 1
+# * [x] Assignment 1
 Write a multithreaded crawler program(server) that can parse certain text information with respect to different clients and find out the total number of hyperlinks within the text and finally remove them, remove any numbers, remove any punctuation symbols and send back cleaned text to the corresponding client.
 
 
