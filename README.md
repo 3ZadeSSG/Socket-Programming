@@ -30,7 +30,7 @@ This implements some basic programs of Socket Programming
 
 # Assignment 7
 * [x] Using RMI in Java design a remote server that can provide several services as follows: 
- * a) Method 1: select_old(), can select all odd length words and sends back to client. 
+ * a) Method 1: select_odd(), can select all odd length words and sends back to client. 
  * b) Method 2: check_palindrome, can check a word is odd length palindrome or not. 
 
 # Assignment 8
