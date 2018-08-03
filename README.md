@@ -13,7 +13,7 @@ This implements some basic programs of Socket Programming
  * c) The client must be implemented as a GUI that can send and receive messages until it sends a string “***bye***” (not case sensitive) 
 
 # Assignment 3
-* [ ] Implement a basic Java application that employs a multithreaded server. Both server and client need to be implemented. The description of server and client is as follows: 
+* [x] Implement a basic Java application that employs a multithreaded server. Both server and client need to be implemented. The description of server and client is as follows: 
  * a) Each client use a text editor or word processor, create a text file containing Name, marks of four subjects and send it to the server. 
  * b) When all records have been written by different clients, server creates a file named “record.dat”, calculate percentage of marks for each client separately and store all records alphabetically (each record on separate line) by name in that file. 
 
