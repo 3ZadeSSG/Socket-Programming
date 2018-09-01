@@ -1,4 +1,4 @@
-# Socket-Programming-Basics-using-Java
+# Socket-Programming
 This implements some basic programs of Socket Programming
  
 # Assignment 1
