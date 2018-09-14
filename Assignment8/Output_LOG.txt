@@ -1,0 +1,92 @@
+============
+1.Create account
+2.Debit
+3.Credit
+4.Exit
+Enter your choice: 1
+
+Enter a bank id you want to use: manu_gond
+
+Enter a password: windows10
+
+Account already exists!
+
+============
+1.Create account
+2.Debit
+3.Credit
+4.Exit
+Enter your choice: 2
+
+Enter your bank ID: manu_gond
+
+Enter your password: windows10
+
+Enter amount to be debited: 5000
+
+From Server> Balance is low!
+
+============
+1.Create account
+2.Debit
+3.Credit
+4.Exit
+Enter your choice: 3
+
+Enter your bank ID: manu_gond
+
+Enter your password: windows10
+
+Enter amount to be credited: 10000
+
+From Server> Amount credited! current balance: 11000.0
+
+============
+1.Create account
+2.Debit
+3.Credit
+4.Exit
+Enter your choice: 1
+
+Enter a bank id you want to use: evilSocket
+
+Enter a password: MacMavricks
+
+Account already exists!
+
+============
+1.Create account
+2.Debit
+3.Credit
+4.Exit
+Enter your choice: 1
+
+Enter a bank id you want to use: Goku_SSG
+
+Enter a password: SSGB
+
+Account already exists!
+
+============
+1.Create account
+2.Debit
+3.Credit
+4.Exit
+Enter your choice: 3
+
+Enter your bank ID: Goku_SSG
+
+Enter your password: SSGB
+
+Enter amount to be credited: 1500
+
+From Server> Amount credited! current balance: 2500.0
+
+============
+1.Create account
+2.Debit
+3.Credit
+4.Exit
+Enter your choice: 4
+
+Closing program......

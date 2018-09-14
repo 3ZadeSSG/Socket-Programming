@@ -12,5 +12,4 @@ public class Server {
 		ctx.rebind("hello", obj);
 		System.out.println("\nServer running...");
 	}
-
 }

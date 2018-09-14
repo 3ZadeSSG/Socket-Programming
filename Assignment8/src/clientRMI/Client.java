@@ -26,11 +26,11 @@ public class Client {
 					ID=sc.nextLine();
 					System.out.print("\nEnter a password: ");
 					Password=sc.nextLine();
-					if(obj.createAccount(ID, Password)) {
+					if(obj.createAccount(ID, Password)) { //try creating new account with given ID and password
 						System.out.print("\nAccount created successfully!");
 					}
 					else {
-						System.out.print("\nAccount already exists!");
+						System.out.print("\nAccount already exists!"); //in case ID is already taken then print error message
 					}
 				}
 				break;
@@ -41,8 +41,8 @@ public class Client {
 					System.out.print("\nEnter your password: ");
 					Password=sc.nextLine();
 					System.out.print("\nEnter amount to be debited: ");
-					amount=sc.nextDouble();
-					System.out.print("\nFrom Server> "+obj.debit(ID, Password, amount));
+					amount=sc.nextDouble(); 
+					System.out.print("\nFrom Server> "+obj.debit(ID, Password, amount)); //try a debit request
 				}
 				break;
 				case 3:
@@ -53,7 +53,7 @@ public class Client {
 					Password=sc.nextLine();
 					System.out.print("\nEnter amount to be credited: ");
 					amount=sc.nextDouble();
-					System.out.print("\nFrom Server> "+obj.credit(ID, Password, amount));
+					System.out.print("\nFrom Server> "+obj.credit(ID, Password, amount)); //try a credit request
 				}
 				break;
 				case 4:
