@@ -1,4 +1,4 @@
-# Socket-Programming-Basics-using-Java
+# Socket-Programming
 This implements some basic programs of Socket Programming
  
 # Assignment 1
@@ -6,11 +6,13 @@ This implements some basic programs of Socket Programming
 
 
 # Assignment 2
-* [ ] Implement a basic electronic chat room application that employs a multithreaded server. Both server and client(blocking) need to be implemented. The description of server and client is as follows: 
+* [x] Implement a basic electronic chat room application that employs a multithreaded server. Both server and client(blocking) need to be implemented. The description of server and client is as follows: 
 
  * a) The multithreaded chat server must broadcast each message to all connected clients. 
  * b) It should also maintain a dynamic list of socket references associated with those clients. 
  * c) The client must be implemented as a GUI that can send and receive messages until it sends a string “***bye***” (not case sensitive) 
+ * Result) The top corner left window(running in virtual machine connected with WiFi hence seperate IP address than its Windows10 counterparts)is of 1st connected client to room, followed by the 2nd one which is at bottom left, and finally the 3rd one is at top right corner.
+  ![alt_text](https://github.com/manugond/Socket-Programming-Basics-using-Java/blob/master/Assignment2/ScreenShot.png)
 
 # Assignment 3
 * [x] Implement a basic Java application that employs a multithreaded server. Both server and client need to be implemented. The description of server and client is as follows: 
